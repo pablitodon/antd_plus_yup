@@ -1,0 +1,5 @@
+body {
+    background-image: url('./../public/1.jpg');
+    @apply bg-cover bg-center min-h-screen
+}
+

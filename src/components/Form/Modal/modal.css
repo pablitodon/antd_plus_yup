@@ -1,0 +1,20 @@
+.modal{
+ @apply text-white;
+ animation: fade 0.4s;
+}
+
+.pre {
+@apply justify-center text-sm
+}
+
+
+
+@keyframes fade {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}

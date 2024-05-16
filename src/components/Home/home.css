@@ -1,0 +1,21 @@
+.wrapper {
+    @apply flex justify-between p-2 items-center
+}
+
+.svg {
+    @apply h-10 text-gray-300
+}
+
+.span {
+    @apply text-2xl text-gray-100 hover:text-red-300 hover:shadow-red-100 transition duration-300 ease-in-out
+}
+
+.a {
+    @apply flex items-center gap-2
+}
+
+
+/* button */
+.aSignIn {
+    @apply rounded-md bg-gray-500 py-2 px-4 text-white font-bold shadow-lg hover:shadow-2xl hover:shadow-red-300 hover:text-black focus:shadow-2xl hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 transition duration-300 ease-in-out
+}
